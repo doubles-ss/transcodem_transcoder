@@ -1,0 +1,11 @@
+{
+    "port":            8080,
+    "access_log":      "/opt/codem-transcoder/log/access_log",
+    "database":        "/opt/codem-transcoder/db/jobs.db",
+    "slots":           1,
+    "interface":       "0.0.0.0",
+    "encoder":         "ffmpeg",
+    "scratch_dir":     "/ceph/tmp",
+    "use_scratch_dir": false,
+    "ffprobe":         null
+}
