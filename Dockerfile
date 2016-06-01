@@ -9,6 +9,6 @@ RUN curl -k https://codem-downloads.s3.amazonaws.com/codem-transcoder_0.0.0_amd6
     apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 5C808C2B65558117 && \
     apt update && \
     apt install -y ffmpeg  && \
-    apt clean
+    apt-get clean
 ENTRYPOINT [ "/entrypoint.sh" ]
 CMD [ "config/localhost_8080.json" ]
